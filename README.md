@@ -37,43 +37,148 @@
 
 ### 캔버스와 보드 관리
 
-| 🗂️ 보드와 아이디어 모아 보기                                                                                                             | 🧩 템플릿으로 시작하기                                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [![카드형 보드 목록에서 검색과 태그로 프로젝트를 찾는 화면](assets/screenshots/board-library.png)](assets/screenshots/board-library.png) | [![업무별 템플릿과 미리보기를 살펴보는 화면](assets/screenshots/template-library.png)](assets/screenshots/template-library.png) |
-| 보드를 썸네일로 살펴보고 검색·태그·즐겨찾기로 정리합니다.                                                                                | 로드맵, 마인드맵, 발표 등 다양한 예시를 내 작업에 맞게 바꿉니다.                                                                |
-
-| 📝 그림에 설명 더하기                                                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![보드 본문을 작성하며 Mermaid 다이어그램과 수식·코드의 연속 미리보기를 확인하는 화면](assets/screenshots/board-notes.png)](assets/screenshots/board-notes.png) |
-| 결정 사항과 체크리스트를 기록하고, 긴 문서도 미리보기를 스크롤하며 읽습니다.                                                                                     |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🗂️ 보드와 아이디어 모아 보기</strong><br />
+      <a href="assets/screenshots/board-library.png"><img src="assets/screenshots/board-library.png" width="100%" alt="카드형 보드 목록에서 검색과 태그로 프로젝트를 찾는 화면" /></a><br />
+      보드를 썸네일로 살펴보고 검색·태그·즐겨찾기로 정리합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🧩 템플릿으로 시작하기</strong><br />
+      <a href="assets/screenshots/template-library.png"><img src="assets/screenshots/template-library.png" width="100%" alt="업무별 템플릿과 미리보기를 살펴보는 화면" /></a><br />
+      로드맵, 마인드맵, 발표 등 다양한 예시를 내 작업에 맞게 바꿉니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>📝 그림에 설명 더하기</strong><br />
+      <a href="assets/screenshots/board-notes.png"><img src="assets/screenshots/board-notes.png" width="100%" alt="보드 본문을 작성하며 Mermaid 다이어그램과 수식·코드의 연속 미리보기를 확인하는 화면" /></a><br />
+      결정 사항과 체크리스트를 기록하고, 긴 문서도 미리보기를 스크롤하며 읽습니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🧭 미니맵으로 보드 탐색하기</strong><br />
+      <a href="assets/screenshots/canvas-navigation.png"><img src="assets/screenshots/canvas-navigation.png" width="100%" alt="캔버스 전체와 현재 위치를 미니맵으로 확인하는 화면" /></a><br />
+      미니맵으로 넓은 보드의 원하는 위치로 이동하고, 자주 보는 화면을 북마크로 남깁니다.
+    </td>
+  </tr>
+</table>
 
 ### AI와 외부 도구 연결
 
-| ✨ AI와 함께 초안 다듬기                                                                                                                | 🔌 외부 AI와 로컬 보드 연결하기                                                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![예시 쇼핑몰의 주문 흐름을 AI 대화로 만들고 확인하는 화면](assets/screenshots/ai-workspace.png)](assets/screenshots/ai-workspace.png) | [![데스크톱 설정에서 로컬 MCP 서버와 외부 AI 연결을 준비하는 화면](assets/screenshots/desktop-local-mcp.png)](assets/screenshots/desktop-local-mcp.png) |
-| 원하는 내용을 말로 요청하고, 결과를 확인한 뒤 보드에 적용합니다.                                                                        | Claude Code·Codex·OpenCode 같은 외부 AI가 허용된 로컬 보드를 읽고 편집하도록 연결합니다.                                                                |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>✨ AI와 함께 초안 다듬기</strong><br />
+      <a href="assets/screenshots/ai-workspace.png"><img src="assets/screenshots/ai-workspace.png" width="100%" alt="예시 쇼핑몰의 주문 흐름을 AI 대화로 만들고 확인하는 화면" /></a><br />
+      원하는 내용을 말로 요청하고, 결과를 확인한 뒤 보드에 적용합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>👀 AI 수정안 미리보기</strong><br />
+      <a href="assets/screenshots/ai-preview.png"><img src="assets/screenshots/ai-preview.png" width="100%" alt="AI가 제안한 보드 수정안을 확대해 확인하는 미리보기 화면" /></a><br />
+      AI의 제안을 크게 살펴보고, 보드에 적용하기 전에 내용을 검토합니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💻 데스크톱 AI 실행 방식 고르기</strong><br />
+      <a href="assets/screenshots/desktop-ai-cli.png"><img src="assets/screenshots/desktop-ai-cli.png" width="100%" alt="데스크톱 로컬 설정에서 Claude CLI와 Codex CLI를 선택하는 화면" /></a><br />
+      이 컴퓨터에 설치하고 로그인한 Claude CLI·Codex CLI로 앱 안의 AI 작업을 실행합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🔌 외부 AI와 로컬 보드 연결하기</strong><br />
+      <a href="assets/screenshots/desktop-local-mcp.png"><img src="assets/screenshots/desktop-local-mcp.png" width="100%" alt="데스크톱 설정에서 로컬 MCP 서버와 외부 AI 연결을 준비하는 화면" /></a><br />
+      Claude Code·Codex·OpenCode 같은 외부 AI가 허용된 로컬 보드를 읽고 편집하도록 연결합니다.
+    </td>
+  </tr>
+</table>
 
 ### 공유와 협업
 
-| 🤝 온라인에서 함께 편집하기                                                                                                                                                   | 💻 같은 공간에서 보드 나누기                                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![온라인 보드에서 권한별 참여자 목록과 함께 편집하는 사람의 커서를 확인하는 화면](assets/screenshots/online-collaboration.png)](assets/screenshots/online-collaboration.png) | [![데스크톱에서 예시 프로젝트 보드를 함께 보며 리액션과 채팅을 이용하는 화면](assets/screenshots/desktop-sharing.png)](assets/screenshots/desktop-sharing.png) |
-| 사람별 보기·댓글·편집 권한을 정하고, 같은 캔버스의 변경을 실시간으로 확인합니다.                                                                                              | 데스크톱 로컬 공유로 같은 네트워크의 참여자와 보드를 보며 의견을 나눕니다.                                                                                     |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🤝 온라인에서 함께 편집하기</strong><br />
+      <a href="assets/screenshots/online-collaboration.png"><img src="assets/screenshots/online-collaboration.png" width="100%" alt="온라인 보드에서 권한별 참여자 목록과 함께 편집하는 사람의 커서를 확인하는 화면" /></a><br />
+      사람별 보기·댓글·편집 권한을 정하고, 같은 캔버스의 변경을 실시간으로 확인합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>💻 같은 공간에서 보드 나누기</strong><br />
+      <a href="assets/screenshots/desktop-sharing.png"><img src="assets/screenshots/desktop-sharing.png" width="100%" alt="데스크톱에서 예시 프로젝트 보드를 함께 보며 리액션과 채팅을 이용하는 화면" /></a><br />
+      데스크톱 로컬 공유로 같은 네트워크의 참여자와 보드를 보며 의견을 나눕니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💬 위치별 댓글로 의견 나누기</strong><br />
+      <a href="assets/screenshots/board-comments.png"><img src="assets/screenshots/board-comments.png" width="100%" alt="캔버스의 댓글 대화에서 답글·리액션·해결을 확인하는 화면" /></a><br />
+      그림의 같은 지점을 보며 답글과 이모지 반응으로 의견을 나누고, 해결한 대화를 정리합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🗳️ 로컬 공유방에서 투표하기</strong><br />
+      <a href="assets/screenshots/desktop-polls.png"><img src="assets/screenshots/desktop-polls.png" width="100%" alt="로컬 공유방에서 선택지별 득표 결과와 남은 시간을 확인하는 화면" /></a><br />
+      같은 네트워크의 공유방에서 기명·익명 투표로 의견을 모으고 결과를 확인합니다.
+    </td>
+  </tr>
+</table>
 
 ### 발표와 파일 활용
 
-| 🎞️ 노트를 보며 발표하기                                                                                                                                         | 📊 PowerPoint에서 이어서 편집하기                                                                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![현재·다음 프레임, 타이머, Markdown 노트를 함께 보여 주는 발표자 보기](assets/screenshots/frame-presentation.png)](assets/screenshots/frame-presentation.png) | [![내보낸 보드의 제목과 도형을 PowerPoint에서 개별 선택해 편집하는 화면](assets/screenshots/powerpoint-export.png)](assets/screenshots/powerpoint-export.png) |
-| 발표자는 노트와 다음 프레임을 확인하고, 청중에게는 현재 프레임을 별도 창으로 보여 줍니다.                                                                       | 지원되는 도형·텍스트·화살표를 편집 가능한 PPTX로 내보내고, 프레임 노트도 발표자 노트로 전달합니다.                                                            |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🎞️ 노트를 보며 발표하기</strong><br />
+      <a href="assets/screenshots/frame-presentation.png"><img src="assets/screenshots/frame-presentation.png" width="100%" alt="현재·다음 프레임, 타이머, Markdown 노트를 함께 보여 주는 발표자 보기" /></a><br />
+      발표자는 노트와 다음 프레임을 확인하고, 청중에게는 현재 프레임을 별도 창으로 보여 줍니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>📊 PowerPoint에서 이어서 편집하기</strong><br />
+      <a href="assets/screenshots/powerpoint-export.png"><img src="assets/screenshots/powerpoint-export.png" width="100%" alt="내보낸 보드의 제목과 도형을 PowerPoint에서 개별 선택해 편집하는 화면" /></a><br />
+      지원되는 도형·텍스트·화살표를 편집 가능한 PPTX로 내보내고, 프레임 노트도 발표자 노트로 전달합니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>📄 보드를 PDF로 저장하기</strong><br />
+      <a href="assets/screenshots/pdf-export.png"><img src="assets/screenshots/pdf-export.png" width="100%" alt="PDF 내보내기에서 범위·미리보기·용지·방향·여백을 설정하는 화면" /></a><br />
+      저장할 범위와 용지·방향·여백을 정하고, 미리보기를 확인한 뒤 PDF로 내보냅니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🧜 다이어그램을 Mermaid 코드로</strong><br />
+      <a href="assets/screenshots/mermaid-export.png"><img src="assets/screenshots/mermaid-export.png" width="100%" alt="보드의 변환 미리보기와 Mermaid 코드를 함께 확인하는 내보내기 화면" /></a><br />
+      보드 전체나 선택 영역을 Mermaid 코드로 변환하고, 미리보기 후 복사하거나 저장합니다.
+    </td>
+  </tr>
+</table>
 
 ### 알림과 앱 보호
 
-| 🔔 댓글과 공유 소식 확인하기                                                                                                                              |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![서비스 공지와 공유 소식·휴지통 안내를 한곳에서 확인하는 알림함](assets/screenshots/notification-inbox.png)](assets/screenshots/notification-inbox.png) |
-| 온라인 알림함에서 공지와 댓글·공유 소식을 확인하고 받을 알림을 선택합니다.                                                                                |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🔔 댓글과 공유 소식 확인하기</strong><br />
+      <a href="assets/screenshots/notification-inbox.png"><img src="assets/screenshots/notification-inbox.png" width="100%" alt="서비스 공지와 공유 소식·휴지통 안내를 한곳에서 확인하는 알림함" /></a><br />
+      온라인 알림함에서 공지와 댓글·공유 소식을 확인하고 받을 알림을 선택합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🔒 자리를 비울 때 앱 잠그기</strong><br />
+      <a href="assets/screenshots/desktop-app-lock.png"><img src="assets/screenshots/desktop-app-lock.png" width="100%" alt="데스크톱 작업 화면을 가리고 잠금 해제 버튼을 표시한 실제 앱 잠금 화면" /></a><br />
+      자리를 비울 때 작업 화면을 가립니다. 버튼으로 해제하는 예시이며, OS 인증 방식도 설정할 수 있습니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>⚙️ 받을 알림 선택하기</strong><br />
+      <a href="assets/screenshots/notification-settings.png"><img src="assets/screenshots/notification-settings.png" width="100%" alt="댓글·공유·휴지통 관련 알림의 수신 여부를 선택하는 설정 화면" /></a><br />
+      댓글·공유·휴지통 소식 중 받을 알림을 선택합니다. 수신 설정은 같은 온라인 계정의 기기에 적용됩니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🛡️ 자동 잠금과 해제 방식 설정하기</strong><br />
+      <a href="assets/screenshots/desktop-lock-settings.png"><img src="assets/screenshots/desktop-lock-settings.png" width="100%" alt="유휴 시간·발표 예외·PC 잠금 연동·OS 인증을 정하는 데스크톱 앱 잠금 설정" /></a><br />
+      자동 잠금 시간과 발표 중 예외, PC 잠금·잠자기 연동을 정하고 버튼 또는 OS 인증으로 해제합니다.
+    </td>
+  </tr>
+</table>
 
 ## 주요 기능
 
